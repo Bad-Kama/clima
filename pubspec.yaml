@@ -10,7 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
 
+  http: ^0.13.1
   cupertino_icons: ^0.1.2
+  geolocator: ^7.0.1
+  flutter_spinkit: ^4.1.2
 
 dev_dependencies:
   flutter_test:
@@ -23,6 +26,15 @@ flutter:
   - images/
 
   fonts:
+  - family: Ubuntu
+    fonts:
+    - asset: fonts/Ubuntu-Regular.ttf
+  - family: Nanum
+    fonts:
+    - asset: fonts/NanumPenScript-Regular.ttf
+  - family: HomemadeApple
+    fonts:
+    - asset: fonts/HomemadeApple-Regular.ttf
   - family: Spartan MB
     fonts:
     - asset: fonts/SpartanMB-Black.otf
